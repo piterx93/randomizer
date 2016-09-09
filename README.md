@@ -1,0 +1,2 @@
+This program is useful for selecting all, this is an idea taken from the "coin toss".
+The program allows you to take any "base" in txt format, and then choose from among the available options (each line is a choice).
