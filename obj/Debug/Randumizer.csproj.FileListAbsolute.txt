@@ -1,0 +1,16 @@
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\bin\Debug\Randumizer.exe.config
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\bin\Debug\Randumizer.exe
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\bin\Debug\Randumizer.pdb
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer.csprojResolveAssemblyReference.cache
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\MainWindow.g.cs
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\App.g.cs
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer_MarkupCompile.cache
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer_MarkupCompile.lref
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\MainWindow.baml
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer.g.resources
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer.Properties.Resources.resources
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer.csproj.GenerateResource.Cache
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer.exe
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Randumizer.pdb
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Window1.g.cs
+d:\dokumenty\dokumenty\visual studio 2015\Projects\Randumizer\Randumizer\obj\Debug\Window1.baml

@@ -1,0 +1,34 @@
+﻿<Window x:Class="Randumizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Randumizer"
+        mc:Ignorable="d"
+        Title="Wybieracz" Height="399.412" Width="610.441" ResizeMode="CanMinimize">
+    <Grid>
+        <Label x:Name="hello" Content="Witaj w programie do wybierania treści" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="add_position" Content="Dodaj pozycję" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="100" Click="add_position_Click"/>
+        <Button x:Name="show_base" Content="Pokaż bazę" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="100" Click="show_base_Click"/>
+        <Button x:Name="rnd" Content="Losuj" HorizontalAlignment="Left" Margin="126,66,0,0" VerticalAlignment="Top" Width="100" Click="rnd_Click"/>
+        <ListView x:Name="position_list" HorizontalAlignment="Left" Height="247" Margin="10,111,0,0" VerticalAlignment="Top" Width="216">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="nazwa" Width="216">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding name}" Foreground="Green" Cursor="Hand" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox x:Name="rnd_screen" HorizontalAlignment="Left" Height="70" Margin="231,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="363" IsReadOnly="True"/>
+        <Button x:Name="choose_file" Content="Wybierz plik" HorizontalAlignment="Left" Margin="126,41,0,0" VerticalAlignment="Top" Width="100" Click="choose_file_Click"/>
+        <Label x:Name="label" Content="Wyniki losowania:" HorizontalAlignment="Left" Margin="233,111,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="rnd_screen_Copy" HorizontalAlignment="Left" Height="216" Margin="231,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="363" IsReadOnly="True"/>
+        <CheckBox x:Name="to_remove_from_base" Content="Automatyczne usuwanie z bazy" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Ścieżka do bazy:" HorizontalAlignment="Left" Margin="233,10,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

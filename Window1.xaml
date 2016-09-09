@@ -1,0 +1,14 @@
+﻿<Window x:Class="Randumizer.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Randumizer"
+        mc:Ignorable="d" Height="110.294" Width="297.353" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="label" Content="Pozyzja do dodania" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="159,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="add_element" Content="Dodaj" HorizontalAlignment="Left" Margin="204,49,0,0" VerticalAlignment="Top" Width="75" Click="add_element_Click"/>
+
+    </Grid>
+</Window>
